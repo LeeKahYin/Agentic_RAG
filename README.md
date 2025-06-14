@@ -65,4 +65,4 @@ python create_vectordb.py
 Start the chatbot interface using Streamlit:
 
 ```bash
-streamlit run rag_agentic_rag.py
+streamlit run agentic_rag.py
