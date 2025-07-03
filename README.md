@@ -1,7 +1,7 @@
 
 # 🤖 Agentic RAG Chatbot
 
-A conversational chatbot that intelligently retrieves and summarizes information from a collection of technical PDFs (e.g. LLM papers). It uses an **Agentic RAG (Retrieval-Augmented Generation)** workflow powered by **LangGraph**, **ChromaDB**, **Google Vertex AI**, and **Streamlit**.
+A single-agent RAG chatbot that retrieves information from multiple vector databases (e.g., Biology, LLM papers) and generates source-cited answers.
 
 ## 🚀 Features
 
@@ -54,6 +54,8 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "vertexai-client-api.json" # chan
 
 ## Create Vector Database
 
+![workflow of creating vectordb](https://github.com/user-attachments/assets/63259cd4-bb93-4987-9755-b8ea0879d3ea)
+
 Run the script to load and embed the PDF into a local vector store:
 
 ```bash
@@ -61,6 +63,8 @@ python create_vectordb.py
 ```
 
 ## Launch the Chatbot
+![workflow of agentic rag](https://github.com/user-attachments/assets/727f7662-c257-4100-912f-6c596ec4928c)
+
 
 Start the chatbot interface using Streamlit:
 
