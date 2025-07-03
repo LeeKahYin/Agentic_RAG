@@ -64,8 +64,25 @@ python create_vectordb.py
 ## Launch the Chatbot
 ![workflow of agentic rag](https://github.com/user-attachments/assets/727f7662-c257-4100-912f-6c596ec4928c)
 
-
 Start the chatbot interface using Streamlit:
 
 ```bash
 streamlit run agentic_rag.py
+```
+
+---
+
+## Handling citations in LangGraph:
+
+Without tool calling:
+- HumanMessage
+- AIMessage
+
+With tool calling:
+- HumanMessage
+- AIMessage
+- ToolMessage
+- AIMessage
+
+If the message has tool calling, then output the source from the ToolMessage artifacts
+
