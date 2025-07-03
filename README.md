@@ -5,7 +5,6 @@ A single-agent RAG chatbot that retrieves information from multiple vector datab
 
 ## 🚀 Features
 
-- ✅ Chat interface with natural language queries
 - ✅ Tool-using agent that decides when to retrieve context or answer directly
 - ✅ MMR-based similarity search for diverse relevant results
 - ✅ Vertex AI embedding + Gemini 2.0 Flash for fast and accurate answers
